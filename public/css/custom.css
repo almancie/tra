@@ -1,0 +1,289 @@
+@media (min-width: 768px) {
+    .tra-sidebar .nav-item .nav-link span {
+        margin-left: 15px;
+    }
+
+    .tra-sidebar .nav-item .nav-link i {
+        margin-left: 15px;
+    }
+}
+
+body {
+	height: 100vh;
+}
+
+body, button, input, select, textarea {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+}
+
+.tra-input {
+    color: #8d929c;
+    background-color: #e7e8ea;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    display: block;
+    line-height: 24px;
+    padding: 12px 24px;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    height: initial;
+}
+
+/*
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], 
+input[type="search"], input[type="number"], input[type="tel"], input[type="range"], 
+input[type="date"], input[type="month"], input[type="week"], input[type="time"], 
+input[type="datetime"], input[type="datetime-local"], input[type="color"], 
+textarea {
+	color: #8d929c;
+    background-color: #e7e8ea;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    display: block;
+    line-height: 24px;
+    padding: 12px 24px;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, 
+input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, 
+input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, 
+input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, 
+textarea {
+	color: #8d929c;
+    background-color: #e7e8ea;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    display: block;
+    line-height: 24px;
+    padding: 12px 24px;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+input[type="button"], button, input[type="reset"], input[type="submit"], .btn {
+	font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 11px 22px rgba(34, 34, 34, 0.2);
+    border-radius: 0;
+    transition: all .5s;
+    background-color: #ed3f96;
+}
+
+input[type="button"]:hover, button:hover, input[type="reset"]:hover, input[type="submit"]:hover, .btn:hover {
+    box-shadow: none;
+    background-color: #ed3f96;
+}*/
+
+.tra-btn-pink {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    /*box-shadow: 0 11px 22px rgba(34, 34, 34, 0.2);*/
+    border-radius: 0;
+    transition: all .5s;
+    color: white;
+    background-color: #ed3f96;
+}
+
+.tra-btn-pink:hover {
+    color: white;
+    box-shadow: none;
+}
+
+.radioGroup {
+    display: flex;
+    align-items: center;
+}
+
+.radioGroup > div {
+    flex: 1;
+}
+
+
+.radioGroup input[type="radio"] {
+    position: absolute;
+    display: none;
+}
+
+.radioGroup input[type="radio"] + label {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e7e8ea;
+}
+
+.radioGroup div:not(:last-child) input[type="radio"] + label {
+    border-right: none;
+}
+
+.radioGroup input[type="radio"]:checked + label {
+    background: #ed3f96;
+    color: white;
+}
+
+/*.form-control {
+	height: initial;
+	width: initial;
+}*/
+
+.full-height {
+	height: 100%;
+}
+
+.tra-nav-pills .nav-link {
+    color: #ed3f96;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.tra-nav-pills .nav-link.active {
+    color: #ed3f96;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 4px solid #ed3f96;
+}
+
+.tra-main-navbar .navbar-brand img {
+    width: 150px;
+    height: initial;
+}
+
+.tra-main-navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tra-main-navbar .navbar-nav > li {
+    padding: 0 30px;
+}
+
+.text-pink {
+    color: #ed3f96;
+}
+
+.text-blue {
+    color: #83c3eb;
+}
+
+.text-green {
+    color: #83bf41;
+}
+
+.text-red {
+    color: #dc3545;
+}
+
+.text-black {
+    color: #333;
+}
+
+.bg-pink {
+    background-color: #ed3f96;
+}
+
+.bg-blue {
+    background-color: #83c3eb;
+}
+
+.bg-green {
+    background-color: #83bf41;
+}
+
+.btn-green {
+    background-color: #83bf41;
+    border: none;
+    color: white;
+}
+
+.btn-green:hover {
+    color: white;
+}
+
+.tra-list table td:first-child {
+    text-align: center;
+    width: 50px;    
+}
+
+.tra-list table tr:first-child td {
+    border-top: none;
+}
+
+.tra-list table td {
+    border-color: #f6f6f6;
+}
+
+.tra-sidebar {
+    border-right: 1px solid #e3e6f0;
+    background: white;
+}
+
+.tra-sidebar #sidebarToggle {
+    background: transparent;
+    width: 100%;
+    color: #858796;
+}
+
+.tra-sidebar.toggled .sidebar-brand {
+    padding: 1rem;
+}
+
+.tra-sidebar .sidebar-brand {
+    height: initial;
+    padding: 2rem;
+}
+
+.tra-sidebar .nav-link {
+    color: #858796;
+}
+
+.tra-sidebar-toggle {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.tra-sidebar-divider {
+    border-color: #f4f4f4;
+}
+
+.icon-btn {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.tra-list .card-header {
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+.tra-list .card-header > span {
+    flex: 1;
+}
